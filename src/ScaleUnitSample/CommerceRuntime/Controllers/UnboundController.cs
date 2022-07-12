@@ -21,6 +21,11 @@ namespace Contoso.CommerceRuntime.Controllers
     /// </summary>
     public class UnboundController : IController
     {
+        static UnboundController()
+        {
+            AssemblyLoadWorkaround.Init();
+        }
+
         /// <summary>
         /// A simple GET endpoint to demonstrate GET endpoints on an unbound controller.
         /// </summary>
