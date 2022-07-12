@@ -12,9 +12,6 @@
         <ProjectReference Include="..\CommerceRuntime\CommerceRuntime.csproj">
             <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
         </ProjectReference>
-        <ProjectReference Include="..\POS\POS.csproj">
-          <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-        </ProjectReference>
     </ItemGroup>
 
     <ItemGroup>
